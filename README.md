@@ -35,7 +35,7 @@
 
 5. Conditioning Mechansisms
 	-  1가지 condition을 입력으로 받으며, 
-	   각 condition은 적절한 encoder가 필요함
+	   각 condition은 적절한 encoder가 필요함 <br>
 	   ex) text condition -> pretrained LLM의 text encoder
 	- 입력된 condition y와 image 정보 z의 상관 관계를 고려하기 위해 cross attention 사용
 	  이후, 가중치가 반영된 condition y가 z에 더해짐
